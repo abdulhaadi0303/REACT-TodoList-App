@@ -1,0 +1,97 @@
+html {
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+    min-height: 900px;
+    font-family: 'helvetica neue';
+  }
+body {
+    margin: 5px ;
+    padding: 5px;
+  }
+.headertab {
+    background-color: rgb(166, 131, 227);
+    margin: 0 auto; /* Set left and right margins to "auto" */
+    padding: 3px;
+    border-radius:6px;
+    width:55%;
+  
+    color:black;
+    font-size: 40px; 
+    text-align: center;
+  }
+
+.Taskbar{
+  background-color:white;
+  margin: 15px auto; /* Set left and right margins to "auto" */
+  padding-top:17px;
+  padding-bottom:13px;
+  border-radius:6px;
+  width:30%;
+  height:35%;
+  text-align: center; /* Center the content horizontally within the div */
+  border: 1px solid rgba(128, 128, 128, 0.1);
+}
+
+.headingtab {
+  background-color: rgb(166, 131, 227);
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  color: white;
+  font-size: 30px;
+  padding: 3px 0; /* 3px padding on top and bottom, 0 padding on left and right */
+
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+}
+
+
+.input-style {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.button-style {
+  padding: 10px 20px;
+  background-color: #007bff; /* Change this to the desired button background color */
+  color: white;
+  border: none;
+  border-radius: 30%;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-style:hover {
+  background-color: #0056b3; /* Change this to the desired button background color on hover */
+}
+
+ul li{
+  list-style-type: none;
+  padding:3px 0;
+  text-align:left;
+  font-size:20px;
+  text-trnsform:Capitalize;
+  min-height:30px;
+
+}
+.checkbox{
+  margin-right:15px;
+  margin-left:0px;
+}
+
+
+
+
+
+
+
+
+.footernote {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
